@@ -51,8 +51,8 @@ button:focus {
     justify-content: space-around;
     background-color: var(--main-theme-900);
     width: 350px;
-    height: 150px;
-    margin-top: 30px;
+    height: 200px;
+    margin-top: 10px;
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -73,17 +73,20 @@ label[for=rbtnEternal] {
 }
 
 label[for=rbtnMythical] {
-    color: purple;
+    color: violet;
 }
 
 #calculator-input select {
-    width: 50px;
+    width: 48px;
+    height: 48px;
+    font-size: 1.125rem;
 }
 
 #calculator-input-itemLevel,
 #calculator-input-enchLevel {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin: 5px;
     color: var(--main-theme-300);
 }
@@ -98,7 +101,7 @@ label[for=rbtnMythical] {
 
 #calculator-output-content {
     overflow-y: scroll;
-    max-height: 400px;
+    max-height: 350px;
 }
 
 .calculator-output-content-row {
