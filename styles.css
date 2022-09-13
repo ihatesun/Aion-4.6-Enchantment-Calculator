@@ -54,6 +54,7 @@ button:focus {
   align-items: center;
   min-width: 450px;
   gap: 1rem;
+  margin: 2rem 0;
 }
 
 .calculator-input {
@@ -62,7 +63,6 @@ button:focus {
   align-items: center;
   justify-content: space-around;
   background-color: var(--main-theme-800);
-  margin-top: 10px;
   border-radius: 10px;
   padding: 1rem;
   width: 100%;
